@@ -1,0 +1,29 @@
+name: Claims
+version: '${project.version}'
+main: custom.plugin.Claims
+api-version: 1.16
+permissions:
+  claim.thief:
+    description: Player can interact without claim owner
+    default: false
+commands:
+  claim:
+    description: Claim toprak
+  sellChunk:
+    description: satar.
+  givePermission:
+    description: Build izni verir.
+  removePermission:
+    description: Build iznini kaldırır.
+  sellClaim:
+    description: claim satar.
+  chunkInfo:
+    description: deneme.
+  makeThief:
+    description: aas
+  removeThief:
+    description: aaaa
+  Try:
+    description: ss
+depend:
+  - Vault
